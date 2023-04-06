@@ -1,0 +1,102 @@
+{
+  "name": "tsx",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ag-grid-community/all-modules": "^25.0.1",
+    "@ant-design/icons": "^4.4.0",
+    "@craco/craco": "^5.8.0",
+    "@cypress/code-coverage": "^3.9.2",
+    "@material-ui/core": "^4.11.0",
+    "@testing-library/jest-dom": "^5.11.5",
+    "@testing-library/react": "^11.2.3",
+    "@testing-library/user-event": "^12.2.2",
+    "@types/jest": "^26.0.15",
+    "@types/react": "^16.9.56",
+    "@types/react-clock": "^3.0.0",
+    "@types/react-dom": "^16.9.9",
+    "@types/react-facebook-login": "^4.1.3",
+    "@types/react-router-dom": "^5.1.6",
+    "@types/react-select": "^3.0.26",
+    "@types/recompose": "^0.30.7",
+    "@types/yup": "^0.29.9",
+    "@xstate/react": "^1.0.2",
+    "ag-grid-community": "^25.0.1",
+    "ag-grid-react": "^25.0.1",
+    "antd": "^4.8.2",
+    "antd-icons": "0.1.0-alpha.1",
+    "awesome-typescript-loader": "^5.2.1",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.5.3",
+    "craco-antd": "^1.19.0",
+    "craco-less": "^1.17.0",
+    "css-loader": "^5.0.1",
+    "cypress": "^6.3.0",
+    "dotenv": "^8.2.0",
+    "formik": "^2.2.5",
+    "immutable": "^4.0.0-rc.12",
+    "istanbul-lib-coverage": "^3.0.0",
+    "node-sass": "^5.0.0",
+    "nyc": "^15.1.0",
+    "prettier": "^2.8.2",
+    "primeicons": "^4.0.0",
+    "primereact": "^5.0.1",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.0",
+    "react-clock": "^3.0.0",
+    "react-confirm-alert": "^2.6.2",
+    "react-dom": "^17.0.1",
+    "react-facebook": "^8.1.4",
+    "react-facebook-login": "^4.1.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.0",
+    "react-select": "^3.1.0",
+    "react-sizeme": "^2.6.12",
+    "recompose": "^0.30.0",
+    "sass-loader": "^10.1.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.1",
+    "styled-components": "^5.2.1",
+    "tailwind": "^4.0.0",
+    "tailwindcss": "^1.9.6",
+    "typescript": "^4.0.5",
+    "web-vitals": "^0.2.4",
+    "xstate": "^4.14.0",
+    "yup": "^0.29.3"
+  },
+  "scripts": {
+    "start": "set PORT=3001 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "cypress": "cypress open"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/facebook-js-sdk": "^3.3.1",
+    "@types/lodash": "^4.14.165",
+    "@types/node": "^12.19.15",
+    "cypress-react-selector": "^2.2.0",
+    "ts-loader": "^8.0.14",
+    "typescript": "^4.0.5",
+    "typings-for-css-modules-loader": "^1.7.0"
+  }
+}
